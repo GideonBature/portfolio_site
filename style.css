@@ -61,6 +61,7 @@ html, body {
 
   #about {
     display: flex;
+
     padding: 100px 50px;
     align-items: center;
   }
@@ -147,6 +148,11 @@ html, body {
   @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
-      
+    }
+
+    #about, #services {
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: center;
     }
   }
